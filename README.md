@@ -52,7 +52,7 @@
 #JSX Attributes 
 - JSX attributes are represented in camelcase --> tabIndex
 - Similar to html attributes
-- Wrap the code inside () braces to let babel understand
+- Wrap the code inside <> braces to let babel understand
 
 #React Components - All UI Elements
 - 1/ Class Based Components - Old 
@@ -60,3 +60,5 @@
 
 #React Functional components 
 - simple js code that return react elements 
+- Component inside a component is called composition
+- 
