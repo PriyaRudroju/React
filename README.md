@@ -61,4 +61,21 @@
 #React Functional components 
 - simple js code that return react elements 
 - Component inside a component is called composition
-- 
+
+- Any JS expression can be written inside {}  
+- React element inside a react element 
+- JSX takes cares of injection attacks 
+- Any type of data that is wrapped inside the {} the browser will checks 
+
+- <props> - used to pass data dynamically
+- props are normal arguments to function
+- passing a prop is like passing an argument to a function
+
+#Config driven UI
+- website is driven by config(data)
+- controlling UI 
+
+#Keys
+- It uniquely identify the elements
+- It re-render everything in the container
+- React does not take "index" as a key

@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+
+.abcd {
+    width: 100px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-items > ul > li {
+    margin: 10px;
+    padding: 10px;
+}
+.restaurant-card{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.restaurant-card:hover{
+    cursor: pointer;
+    border : 1px solid #000;
+}
+.search{
+    padding: 10px;
+}
+
+.res-logo{
+    width: 100%;
+    height: 100px;
+}
+
+.RestaurantContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #171616;
+    background-color: #ccc;
+}
+
+.copyright-logo
+{
+    height: 50px;
+}
+
+.footer-items > ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.footer-items > ul > li {
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-between;
+}
