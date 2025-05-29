@@ -68,3 +68,8 @@
     padding: 5px;
     justify-content: space-between;
 }
+
+.filter-bn{
+    margin: 10px;
+    cursor: pointer;
+}

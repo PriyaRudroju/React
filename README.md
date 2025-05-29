@@ -79,3 +79,46 @@
 - It uniquely identify the elements
 - It re-render everything in the container
 - React does not take "index" as a key
+
+#Food App
+- Header
+- *-Logo
+- *-NavItem
+
+- Body
+- *Search 
+- *-RestaurantContainer
+- **-RestaurantCard
+- *-Img
+- *-NameofRestaurant, Rating, Cuisine, Delivery Time
+ 
+-  Footer
+- *-Copyright
+- *-Links
+- *-Address
+- *-Contact
+ 
+- If want to export more than 2 , we use name exports
+
+
+- Default export/import
+- export default Component;
+- Import Component from "path";
+
+
+- Named Export/Import
+- export const Components;
+- import {Component} from "path";
+
+# React Hooks
+- Normal JS utility Functions 
+- 1. Use state() - Use to generate super powerful() state variables in react - maintain state of a variable 
+- 2. UseEffect() - 
+
+- whenever the state variable react will re-render the component
+
+
+- React uses Reconciliation algorithm : also known as react fiber
+- Virtual DOM(JS Object): is representation of an actual DOM
+
+- Diff Algorith: find out diff between 2 virtual DOM (updated virtual dom & old) then calculate the diff and update the dom in every render cycle.
