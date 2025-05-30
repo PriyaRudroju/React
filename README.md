@@ -113,7 +113,9 @@
 # React Hooks
 - Normal JS utility Functions 
 - 1. Use state() - Use to generate super powerful() state variables in react - maintain state of a variable 
-- 2. UseEffect() - 
+- 2. UseEffect() - it take 2 arguments - 
+
+- this useeffect call back effect is called after your component renders.
 
 - whenever the state variable react will re-render the component
 
@@ -122,3 +124,13 @@
 - Virtual DOM(JS Object): is representation of an actual DOM
 
 - Diff Algorith: find out diff between 2 virtual DOM (updated virtual dom & old) then calculate the diff and update the dom in every render cycle.
+
+# Monolithic Application:
+- 
+
+# Microservice Architecture: (It follows single responsible principle)
+- 
+- To call an api directly we use third party called - https://corsproxy.io/ before the api url 
+
+# Shimmer
+- resembles the page's actual UI , so users will understand how quickly the web/mobile app will load even before the content has shown up.
