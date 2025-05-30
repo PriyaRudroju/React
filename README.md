@@ -134,3 +134,6 @@
 
 # Shimmer
 - resembles the page's actual UI , so users will understand how quickly the web/mobile app will load even before the content has shown up.
+
+# Conditional Rendering 
+- rendering according to condition is called conditional rendering.

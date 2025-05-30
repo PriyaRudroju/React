@@ -28,11 +28,10 @@ const Body = () => {
     setResList(json.data.cards[0].groupedCard.cardGroupMap.RESTAURANT.cards);
   };
 
-  if(restList.length === 0){
-    return <Shimmer/>
-  }
-
-  return (
+  return restList.length === 0? (
+   <Shimmer/>
+  ) :
+  (
     <div className="body">
       <div className="filter">
         <button
